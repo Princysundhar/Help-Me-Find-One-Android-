@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/feedback"
+            android:title="Admin Complaint" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/complain"
+            android:title="Police Complaint" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/problemsolving"
+            android:title="Register Missing" />
+        <item
+            android:id="@+id/nav_slideshows"
+            android:icon="@drawable/call"
+            android:title="Emergency Contact" />
+        <item
+            android:id="@+id/nav_slideshowz"
+            android:icon="@drawable/wanted"
+            android:title="Wanted Details" />
+        <item
+            android:id="@+id/nav_homes"
+            android:icon="@drawable/absence"
+            android:title="Missing Details" />
+    </group>
+</menu>
